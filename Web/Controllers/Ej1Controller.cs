@@ -11,7 +11,7 @@ namespace Web.Controllers
         [HttpGet()]
         public List<string> Get([FromQuery] string persona1, [FromQuery] string persona2, [FromQuery] string persona3 )
         {
-            List<Persona> lista = [];
+            List<Persona> lista = []; // lista con los 3 nombres
             lista.Add(new Persona(persona1));
             lista.Add(new Persona(persona2));
             lista.Add(new Persona(persona3));

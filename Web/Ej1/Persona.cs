@@ -1,6 +1,6 @@
 ﻿namespace Web.Ej1
 {
-    public class Persona
+    public class Persona //clase persona con una propiedad Nombre de tipo string
     {
         public string Nombre { get; set; }
 
@@ -9,7 +9,7 @@
             Nombre = nombre;
         }
 
-        public string GetSaludo()
+        public string GetSaludo() // metodo que devuelve 
         {
             return $"Hola mi nombre es {Nombre}";
         }
